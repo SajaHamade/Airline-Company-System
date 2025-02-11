@@ -1,15 +1,15 @@
-##Project Description:
+#Project Description:
 My airline company system facilitates user and administrator interactions.
 Users can create accounts, book flights, and receive notifications for updates on their reservations. 
 Administrators can manage flights, including adding, updating, and deleting them. 
 The system is built with design patterns, ensuring easy extensibility and maintainability.
 
-##Technologies Used:
+#Technologies Used:
 •	Java Spring Boot
 •	MySQL
 •	React.js
 
-##Installation & Setup
+#Installation & Setup
 •	For the Backend part: open AilineCompanySystem 
   in application.properties, add your
   spring.datasource.url
