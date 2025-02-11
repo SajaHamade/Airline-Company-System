@@ -1,5 +1,5 @@
 # Airline Company System
-This is a full-stack application built with Spring Boot,React.js(with Vite),MysQL. 
+This is a full-stack application built with Spring Boot,React.js(with Vite),MySQL. 
 
 ## Project Description
 -Airline Company System facilitates user and administrator interactions. 
