@@ -1,0 +1,67 @@
+.flight-container {
+  display: flex;
+  flex-direction: column; /* Center content vertically */
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-color: black;
+  padding-top: 60px; /* Adjust this to avoid overlap with the navbar */
+}
+
+.flight-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+  width: 100%;
+  max-width: 1200px; /* Make the flight box responsive */
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.flight-list {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping of cards */
+  gap: 20px; /* Space between the cards */
+  justify-content: center; /* Align cards in the center */
+}
+
+.flight-item {
+  background: black;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  text-align: left;
+  width: 250px; /* Set fixed width for horizontal cards */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.flight-item:hover {
+  transform: scale(1.05);
+}
+
+.flight-item p {
+  margin: 5px 0;
+}
+
+.flight-item button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.flight-item button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+}

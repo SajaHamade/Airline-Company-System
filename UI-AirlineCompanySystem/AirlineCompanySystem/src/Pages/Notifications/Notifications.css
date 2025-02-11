@@ -1,0 +1,49 @@
+/* Notifications Page Styling */
+.notifications-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000; /* Black Background */
+    color: #fff; /* White Text */
+  }
+  
+  .notifications-box {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    width: 50%;
+    text-align: center;
+  }
+  
+  h2 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #222;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: left;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #ccc;
+  }
+  
